@@ -1,0 +1,56 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.conteiner {
+   width: 1518px;
+   margin: 0 auto;
+}
+
+.corusel {
+   display: flex;
+   margin-top: 100px;
+   overflow-x: hidden;
+   position: relative;
+   margin-left: 350px;
+   width: 850px;
+}
+
+.corusel_list{
+   display: flex;
+   transition: all 0.5s ease;
+}
+
+.next {
+   background-color: rgba(0, 0, 0, 0.478);
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 810px;
+   color: white;
+   padding-top: 3px;
+   font-size: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.next:active{
+   background-color: black;
+}
+
+.prev {
+   cursor: pointer;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 10px;
+   color: white;
+   padding-top: 3px;
+   font-size: 30px;
+   background-color: rgba(0, 0, 0, 0.455);
+   border-radius: 5px;
+}
+
+.prev:active{
+   background-color: black;
+}
